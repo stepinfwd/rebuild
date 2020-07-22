@@ -20,7 +20,7 @@ class App extends Component {
   componentDidMount() {
     this.listener = document.addEventListener("scroll", (e) => {
       var scrolled = document.scrollingElement.scrollTop;
-      if (scrolled >= 120) {
+      if (scrolled >= 50) {
         if (this.state.status !== "diff") {
           this.setState({ status: "diff" });
         }
@@ -44,8 +44,8 @@ class App extends Component {
           sticky="top"
           className="nav-container"
           style={{
-            backgroundColor: this.state.status === "top" ? "" : "#43414e",
-            color: this.state.status === "top" ? "#fff" : "#43414e",
+            backgroundColor: this.state.status === "top" ? "" : "#fff",
+            color: this.state.status === "top" ? "#fff" : "#fff",
           }}
         >
           <Navbar.Brand href="#home">CARTMAKER</Navbar.Brand>
