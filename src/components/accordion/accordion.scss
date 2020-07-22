@@ -13,12 +13,16 @@ $teal-color: #008080;
   font-size: 32px;
   font-weight: 900;
   text-align: left;
+  margin-left: 1rem;
 }
 .accordion-custom-padding-0 {
   padding: 0 !important;
 }
 .custom-accordion-bootstrap {
   margin-top: 40px !important;
+}
+.accordion-image-section-container {
+  margin: 0.5rem;
 }
 
 .accordion-image-section {
@@ -57,7 +61,7 @@ $teal-color: #008080;
 
 @media screen and (min-width: 768px) {
   .accordion-image-section-container {
-    margin-top: 66px 0px 0px;
+    // margin: 66px 0px 0px;
     padding: 36px 20px 20px;
   }
   .accordion-header,
