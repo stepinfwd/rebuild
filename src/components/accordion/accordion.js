@@ -29,9 +29,18 @@ class ManageAccordion extends Component {
                     textAlign: "left",
                     backgroundColor: "#434343",
                     color: "#fff",
+                    border: "none",
                   }}
                 >
-                  <Accordion.Toggle as={Card.Header} eventKey="0">
+                  <Accordion.Toggle
+                    as={Card.Header}
+                    eventKey="0"
+                    style={{
+                      border: "none",
+                      backgroundColor: "#434343",
+                      padding: ".8rem 0px",
+                    }}
+                  >
                     <div className="acc-flex">
                       <img className="svg-icon" src={next} alt=""></img>
                       Dashboard overview of all your sites
@@ -53,9 +62,18 @@ class ManageAccordion extends Component {
                     textAlign: "left",
                     backgroundColor: "#434343",
                     color: "#fff",
+                    border: "none",
                   }}
                 >
-                  <Accordion.Toggle as={Card.Header} eventKey="1">
+                  <Accordion.Toggle
+                    as={Card.Header}
+                    eventKey="1"
+                    style={{
+                      border: "none",
+                      backgroundColor: "#434343",
+                      padding: ".8rem 0px",
+                    }}
+                  >
                     <div className="acc-flex">
                       <img className="svg-icon" src={next} alt=""></img>A
                       powerful and purpose-built WordPress hosting tool
@@ -80,7 +98,15 @@ class ManageAccordion extends Component {
                     border: "none",
                   }}
                 >
-                  <Accordion.Toggle as={Card.Header} eventKey="2">
+                  <Accordion.Toggle
+                    as={Card.Header}
+                    eventKey="2"
+                    style={{
+                      border: "none",
+                      backgroundColor: "#434343",
+                      padding: ".8rem 0px",
+                    }}
+                  >
                     <div className="acc-flex">
                       <img className="svg-icon" src={next} alt=""></img>
                       Manage users with granular access rights
@@ -103,9 +129,18 @@ class ManageAccordion extends Component {
                     textAlign: "left",
                     backgroundColor: "#434343",
                     color: "#fff",
+                    border: "none",
                   }}
                 >
-                  <Accordion.Toggle as={Card.Header} eventKey="3">
+                  <Accordion.Toggle
+                    as={Card.Header}
+                    eventKey="3"
+                    style={{
+                      border: "none",
+                      backgroundColor: "#434343",
+                      padding: ".8rem 0px",
+                    }}
+                  >
                     <div className="acc-flex">
                       <img className="svg-icon" src={next} alt=""></img>
                       Wide-range of analytics from website resources to
