@@ -3,8 +3,8 @@ $black-color: #434343;
 $teal-color: #008080;
 
 .banner-global {
-  background-color: #1fd1f9;
-  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+  background-color: #4d5dfb;
+  background-image: linear-gradient(315deg, #4d5dfb 0%, #08c8f6 74%);
   padding: 20px 0 40px;
   h3 {
     font-size: 32px;
@@ -18,7 +18,7 @@ $teal-color: #008080;
     text-align: left;
     margin-bottom: 20px;
     margin-top: 20px;
-    color: $white-color;
+    color: $black-color;
   }
 }
 

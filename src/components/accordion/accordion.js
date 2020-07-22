@@ -11,15 +11,21 @@ class ManageAccordion extends Component {
     return (
       <div className="manage-accordion-global ">
         <div className="container-fluid accordion-custom-padding-0">
-          <div className="col-xs-12 col-sm-12 accordion-custom-padding-0">
-            <h2 className="accordion-header">
-              MyKinsta is site management reimagined
-            </h2>
-
-            <div className="accordion-image-section ">
-              <img src={dash2} alt=""></img>
+          <div className="row">
+            <div className=" col-xl-5 order-xl-12 accordion-custom-padding-0">
+              <h2 className="accordion-header">
+                MyKinsta is site management reimagined
+              </h2>
+              <div className="accordion-image-section-container ">
+                <div className="accordion-image-section ">
+                  <img src={dash2} alt=""></img>
+                </div>
+              </div>
             </div>
-            <div className="col-xs-12 col-sm-12 accordion-custom-padding-0">
+            <div className=" col-xl-7 order-xl-1  accordion-custom-padding-0">
+              <h2 className="XL-accordion-header">
+                MyKinsta is site management reimagined
+              </h2>
               <Accordion
                 defaultActiveKey="0"
                 className="custom-accordion-bootstrap"
@@ -117,10 +123,9 @@ class ManageAccordion extends Component {
                       style={{ textAlign: "left", marginLeft: ".8rem" }}
                     >
                       {" "}
-                      MyKinsta is the control center for your sites. From
-                      tracking bandwidth, visitor stats to creating SSL
-                      certificates, all the tools you need are in one convenient
-                      location
+                      MyKinsta was built from the get-go as a companion to our
+                      services. It allows you to manage your sites with the ease
+                      and precision you would expect from Kinsta.
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -152,9 +157,10 @@ class ManageAccordion extends Component {
                       style={{ textAlign: "left", marginLeft: ".8rem" }}
                     >
                       {" "}
-                      MyKinsta is the control center for your sites. From
-                      tracking bandwidth, visitor stats to creating SSL
-                      certificates, all the tools you need are in one{" "}
+                      Our powerful multi-user feature allows you to add any
+                      number of users to your team. Give them access to all your
+                      sites, just billing or add them as developers or
+                      administrators to a subset of your sites.{" "}
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>

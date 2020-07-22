@@ -52,6 +52,30 @@ p {
 .feature-list-padding-adjust {
   margin-top: 0px;
 }
+
+@media screen and (min-width: 1200px) {
+  .feature-card {
+    width: 80vw !important;
+    min-height: 22rem;
+    margin-top: 3.5rem auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-feature-list {
+    margin-top: 20px;
+  }
+  .feature-svg-flex {
+    display: flex;
+    flex-direction: row;
+  }
+  .main-feature-card-heading h3 {
+    font-size: 28px;
+  }
+  .feature-card {
+    padding: 40px !important;
+  }
+}
 // @media screen and (min-width: 992px) {
 //   .feature-card {
 //     display: flex;

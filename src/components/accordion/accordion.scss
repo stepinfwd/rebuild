@@ -6,7 +6,8 @@ $teal-color: #008080;
   padding: 60px 16px 60px 16px !important;
   margin-top: 100px;
 }
-.accordion-header {
+.accordion-header,
+.XL-accordion-header {
   margin-bottom: 40px;
   color: $white-color;
   font-size: 32px;
@@ -23,7 +24,7 @@ $teal-color: #008080;
 .accordion-image-section {
   width: 100%;
   height: auto;
-  //   max-width: 712px;
+  max-width: 712px;
   box-sizing: border-box;
   //   padding: 24px 11px 11px;
   border-radius: 11px;
@@ -49,4 +50,41 @@ $teal-color: #008080;
 .acc-flex {
   display: flex;
   flex-direction: row;
+}
+.XL-accordion-header {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .accordion-image-section-container {
+    margin-top: 66px 0px 0px;
+    padding: 36px 20px 20px;
+  }
+  .accordion-header,
+  .XL-accordion-header {
+    font-size: 28px;
+  }
+  .accordion-image-section {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .XL-accordion-header {
+    display: block;
+    margin-left: 4rem;
+  }
+  .accordion-header {
+    display: none;
+  }
+  // .accordion-custom-padding-0 {
+  //   padding-left: 2rem;
+  // }
+
+  .accordion-image-section-container {
+    padding: 0px 0px 0px;
+  }
+  .custom-accordion-bootstrap {
+    margin-left: 4rem;
+  }
 }

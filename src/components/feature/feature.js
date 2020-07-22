@@ -9,57 +9,61 @@ import cloud from "./images/icons8-cloud-50.png";
 
 const Feature = () => {
   return (
-    <div className="feature-card container">
-      <div className="col-sm-12 ">
-        <div className="feature-card-column main-feature-card-heading">
+    <div className="feature-card">
+      <div className="container">
+        <div className="feature-card-column main-feature-card-heading ">
           <h3>FEATURES</h3>
           <p>These form the basis of our service.</p>
         </div>
+        <div className="row">
+          <div className="col-md-6">
+            <div className="feature-card-column card-feature-list ">
+              <p>
+                <span>
+                  <img className="feature-card-icons" src={manage} alt="" />
+                </span>
+                Fully managed
+              </p>
+              <p className="feature-svg-flex">
+                <span>
+                  <img className="feature-card-icons" src={secure} alt="" />
+                </span>
+                Secure like fort Knox
+              </p>
 
-        <div className="feature-card-column card-feature-list">
-          <p>
-            <span>
-              <img className="feature-card-icons" src={manage} alt="" />
-            </span>
-            Fully managed
-          </p>
-          <p>
-            <span>
-              <img className="feature-card-icons" src={secure} alt="" />
-            </span>
-            Secure like fort Knox
-          </p>
+              <p>
+                <span>
+                  <img className="feature-card-icons" src={migrate} alt="" />
+                </span>
+                Free migrations
+              </p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="feature-card-column card-feature-list feature-list-padding-adjust">
+              <p>
+                {" "}
+                <span>
+                  <img className="feature-card-icons" src={speed} alt="" />
+                </span>
+                Ultimate speed
+              </p>
 
-          <p>
-            <span>
-              <img className="feature-card-icons" src={migrate} alt="" />
-            </span>
-            Free migrations
-          </p>
-        </div>
+              <p>
+                <span>
+                  <img className="feature-card-icons" src={backup} alt="" />
+                </span>
+                Daily backups
+              </p>
 
-        <div className="feature-card-column card-feature-list feature-list-padding-adjust">
-          <p>
-            {" "}
-            <span>
-              <img className="feature-card-icons" src={speed} alt="" />
-            </span>
-            Ultimate speed
-          </p>
-
-          <p>
-            <span>
-              <img className="feature-card-icons" src={backup} alt="" />
-            </span>
-            Daily backups
-          </p>
-
-          <p>
-            <span>
-              <img className="feature-card-icons" src={cloud} alt="" />
-            </span>
-            Google Cloud Platform
-          </p>
+              <p className="feature-svg-flex">
+                <span>
+                  <img className="feature-card-icons" src={cloud} alt="" />
+                </span>
+                Google Cloud Platform
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
