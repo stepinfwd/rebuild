@@ -12,7 +12,7 @@ const Work = () => {
           Our clients love us because we never settle on these
         </p>
         <div className="work-three-column-layout  row">
-          <div className="col-sm-4 work-each-column">
+          <div className="col-xs-12 col-sm-4 work-each-column">
             <img src={feature1} alt="" />
             <h4>Peace of mind</h4>
             <p>
@@ -20,7 +20,7 @@ const Work = () => {
               site. Always running, monitored, and scaling on-demand.
             </p>
           </div>
-          <div className="col-sm-4 work-each-column">
+          <div className="col-xs-12 col-sm-4 work-each-column">
             <img src={feature2} alt="" />
             <h4>Support that cares</h4>
             <p>
@@ -28,7 +28,7 @@ const Work = () => {
               site. Always running, monitored, and scaling on-demand.
             </p>
           </div>
-          <div className="col-sm-4 work-each-column">
+          <div className="col-xs-12 col-sm-4 work-each-column">
             <img src={feature3} alt="" />
             <h4>User-friendly, yet powerful</h4>
             <p>
