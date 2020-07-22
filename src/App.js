@@ -20,7 +20,7 @@ class App extends Component {
   componentDidMount() {
     this.listener = document.addEventListener("scroll", (e) => {
       var scrolled = document.scrollingElement.scrollTop;
-      if (scrolled >= 50) {
+      if (scrolled >= 25) {
         if (this.state.status !== "diff") {
           this.setState({ status: "diff" });
         }

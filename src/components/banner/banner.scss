@@ -22,11 +22,49 @@ $teal-color: #008080;
   }
 }
 
+.banner-button-container {
+  margin-bottom: 3rem;
+  text-align: left;
+}
 .banner-custom-btn {
   margin-top: 20px;
   margin-right: 20px;
   border: 1px solid $black-color !important;
-  position: absolute;
-  left: 1rem;
-  bottom: -3rem;
+  // position: absolute;
+  // left: 1rem;
+  // bottom: -3.5rem;
+}
+
+// MEDIA_QUERY
+
+@media screen and (min-width: 769px) {
+  .banner-global {
+    background-color: #fff;
+    background-image: none;
+    padding: 20px 0 40px;
+    margin-top: 2rem;
+    height: auto;
+    h3 {
+      font-size: 42px;
+      font-weight: 900;
+      color: $black-color;
+    }
+    p {
+      font-size: 18px;
+      color: $black-color;
+    }
+  }
+  .banner-image-container {
+    background-image: url("./images/Catalogue-pana.svg");
+    background-size: initial;
+    height: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .banner-global {
+    margin-top: 10rem;
+  }
 }

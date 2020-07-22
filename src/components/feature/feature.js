@@ -10,7 +10,7 @@ import cloud from "./images/icons8-cloud-50.png";
 const Feature = () => {
   return (
     <div className="feature-card container">
-      <div className="col-xs-12 ">
+      <div className="col-sm-12 ">
         <div className="feature-card-column main-feature-card-heading">
           <h3>FEATURES</h3>
           <p>These form the basis of our service.</p>

@@ -48,7 +48,7 @@ class ManageAccordion extends Component {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="0">
                     <Card.Body
-                      style={{ textAlign: "left", marginLeft: "2rem" }}
+                      style={{ textAlign: "left", marginLeft: ".8rem" }}
                     >
                       MyKinsta is the control center for your sites. From
                       tracking bandwidth, visitor stats to creating SSL
@@ -81,7 +81,7 @@ class ManageAccordion extends Component {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="1">
                     <Card.Body
-                      style={{ textAlign: "left", marginLeft: "2rem" }}
+                      style={{ textAlign: "left", marginLeft: ".8rem" }}
                     >
                       {" "}
                       Our dashboard lets you track important data for each of
@@ -114,7 +114,7 @@ class ManageAccordion extends Component {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="2">
                     <Card.Body
-                      style={{ textAlign: "left", marginLeft: "2rem" }}
+                      style={{ textAlign: "left", marginLeft: ".8rem" }}
                     >
                       {" "}
                       MyKinsta is the control center for your sites. From
@@ -149,7 +149,7 @@ class ManageAccordion extends Component {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="3">
                     <Card.Body
-                      style={{ textAlign: "left", marginLeft: "2rem" }}
+                      style={{ textAlign: "left", marginLeft: ".8rem" }}
                     >
                       {" "}
                       MyKinsta is the control center for your sites. From

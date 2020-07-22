@@ -14,8 +14,9 @@
   color: rgb(0, 0, 0) !important;
   font-weight: 900;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 2rem;
+  letter-spacing: 2px;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: rgb(0, 0, 0) !important;
@@ -39,12 +40,18 @@
   margin-left: 2rem;
 }
 .navbar-toggler {
-  background-color: #008080 !important;
+  background-color: #444444 !important;
+}
+
+@media screen and (min-width: 769px) {
+  .navbar-dark .navbar-brand {
+    margin-left: 0.5rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .navbar-dark .navbar-brand {
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
   .hero-text {
     margin-left: 5rem;
