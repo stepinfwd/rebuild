@@ -53,14 +53,6 @@ p {
   margin-top: 0px;
 }
 
-@media screen and (min-width: 1200px) {
-  .feature-card {
-    width: 80vw !important;
-    min-height: 22rem;
-    margin-top: 3.5rem !important;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .card-feature-list {
     margin-top: 20px;
@@ -74,6 +66,18 @@ p {
   }
   .feature-card {
     padding: 40px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .feature-card {
+    width: 80vw !important;
+    min-height: auto;
+    margin-top: 3.5rem !important;
+  }
+  .main-feature-card-heading {
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
 // @media screen and (min-width: 992px) {

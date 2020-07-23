@@ -12,7 +12,7 @@ class ManageAccordion extends Component {
       <div className="manage-accordion-global ">
         <div className="container-fluid accordion-custom-padding-0">
           <div className="row">
-            <div className=" col-xl-5 order-xl-12 accordion-custom-padding-0">
+            <div className=" col-xl-7 order-xl-12 accordion-custom-padding-0">
               <h2 className="accordion-header">
                 MyKinsta is site management reimagined
               </h2>
@@ -22,7 +22,7 @@ class ManageAccordion extends Component {
                 </div>
               </div>
             </div>
-            <div className=" col-xl-7 order-xl-1  accordion-custom-padding-0">
+            <div className=" col-xl-5 order-xl-1  accordion-custom-padding-0">
               <h2 className="XL-accordion-header">
                 MyKinsta is site management reimagined
               </h2>

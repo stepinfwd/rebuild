@@ -11,12 +11,13 @@ const Feature = () => {
   return (
     <div className="feature-card">
       <div className="container">
-        <div className="feature-card-column main-feature-card-heading ">
-          <h3>FEATURES</h3>
-          <p>These form the basis of our service.</p>
-        </div>
         <div className="row">
-          <div className="col-md-6">
+          <div className="feature-card-column main-feature-card-heading col-xl-4 ">
+            <h3>FEATURES</h3>
+            <p>These form the basis of our service.</p>
+          </div>
+
+          <div className="col-md-6 col-xl-4 ">
             <div className="feature-card-column card-feature-list ">
               <p>
                 <span>
@@ -39,7 +40,7 @@ const Feature = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 col-xl-4 ">
             <div className="feature-card-column card-feature-list feature-list-padding-adjust">
               <p>
                 {" "}
