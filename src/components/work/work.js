@@ -16,24 +16,24 @@ const Work = () => {
             <img src={feature1} alt="" />
             <h4>Peace of mind</h4>
             <p>
-              You’re free to focus on growing your business, let us handle your
-              site. Always running, monitored, and scaling on-demand.
+              You’re free to focus on growing your business, Let us handle your
+              Back-end. Always running, monitored, and scaling on-demand.
             </p>
           </div>
           <div className=" col-md-4 work-each-column">
             <img src={feature2} alt="" />
             <h4>Support that cares</h4>
             <p>
-              You’re free to focus on growing your business, let us handle your
-              site. Always running, monitored, and scaling on-demand.
+              It's easy to get to us. Let us provide the support for technical
+              queries and complaints on the spot.
             </p>
           </div>
           <div className=" col-md-4 work-each-column">
             <img src={feature3} alt="" />
             <h4>User-friendly, yet powerful</h4>
             <p>
-              You’re free to focus on growing your business, let us handle your
-              site. Always running, monitored, and scaling on-demand.
+              Spend less time managing the store . You’re free to pay attention
+              in bringing customers.
             </p>
           </div>
         </div>

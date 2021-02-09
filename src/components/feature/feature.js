@@ -23,20 +23,20 @@ const Feature = () => {
                 <span>
                   <img className="feature-card-icons" src={manage} alt="" />
                 </span>
-                Fully managed
+                Headless
               </p>
               <p className="feature-svg-flex">
                 <span>
                   <img className="feature-card-icons" src={secure} alt="" />
                 </span>
-                Secure like fort Knox
+                Full Control
               </p>
 
               <p>
                 <span>
                   <img className="feature-card-icons" src={migrate} alt="" />
                 </span>
-                Free migrations
+                Scalable
               </p>
             </div>
           </div>
@@ -47,21 +47,21 @@ const Feature = () => {
                 <span>
                   <img className="feature-card-icons" src={speed} alt="" />
                 </span>
-                Ultimate speed
+                Easy Integration
               </p>
 
               <p>
                 <span>
                   <img className="feature-card-icons" src={backup} alt="" />
                 </span>
-                Daily backups
+                Custom storefront
               </p>
 
               <p className="feature-svg-flex">
                 <span>
                   <img className="feature-card-icons" src={cloud} alt="" />
                 </span>
-                Google Cloud Platform
+                payment and Shipping Integration
               </p>
             </div>
           </div>

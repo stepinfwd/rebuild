@@ -14,7 +14,7 @@ class ManageAccordion extends Component {
           <div className="row">
             <div className=" col-xl-7 order-xl-12 accordion-custom-padding-0">
               <h2 className="accordion-header">
-                MyKinsta is site management reimagined
+                Cartmaker is site Ecommerce reimagined
               </h2>
               <div className="accordion-image-section-container ">
                 <div className="accordion-image-section ">
@@ -24,7 +24,7 @@ class ManageAccordion extends Component {
             </div>
             <div className=" col-xl-5 order-xl-1  accordion-custom-padding-0">
               <h2 className="XL-accordion-header">
-                MyKinsta is site management reimagined
+                Cartmaker is site Ecommerce reimagined
               </h2>
               <Accordion
                 defaultActiveKey="0"
@@ -49,17 +49,17 @@ class ManageAccordion extends Component {
                   >
                     <div className="acc-flex">
                       <img className="svg-icon" src={next} alt=""></img>
-                      Dashboard overview of all your sites
+                      Dashboard overview of all your Products
                     </div>
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="0">
                     <Card.Body
                       style={{ textAlign: "left", marginLeft: ".8rem" }}
                     >
-                      MyKinsta is the control center for your sites. From
-                      tracking bandwidth, visitor stats to creating SSL
-                      certificates, all the tools you need are in one convenient
-                      location
+                      Cartmaker is the control center for your sites. From
+                      Inventory management, visitor authentication to shipping
+                      and Product review collection, all the tools you need to
+                      run an ecommerce are in one convenient location
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -82,7 +82,7 @@ class ManageAccordion extends Component {
                   >
                     <div className="acc-flex">
                       <img className="svg-icon" src={next} alt=""></img>A
-                      powerful and purpose-built WordPress hosting tool
+                      powerful and purpose-built E-commerce management tool{" "}
                     </div>
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="1">
@@ -90,9 +90,9 @@ class ManageAccordion extends Component {
                       style={{ textAlign: "left", marginLeft: ".8rem" }}
                     >
                       {" "}
-                      Our dashboard lets you track important data for each of
-                      your sites separately; such as visitors, bandwidth usage,
-                      response times, and more.
+                      Lets you track important data for each of your Products
+                      separately; such as visitors, orders, Prices,inventory and
+                      more.
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>

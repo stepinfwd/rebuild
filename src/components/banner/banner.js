@@ -9,13 +9,13 @@ class Banner extends Component {
           <div className="row">
             <div className="col-xs-12 col-md-6 ">
               <h3 className="banner-text-heading">
-                Premium WordPress hosting for everyone, small or large
+                Fully managed headless e-commerce
               </h3>
 
               <p>
-                Kinsta is a managed WordPress hosting provider that helps take
-                care of all your needs regarding your website. We run our
-                services on cutting-edge technology and take support seriously
+                Cartmaker is a headless Ecommerce Builder. Build your full
+                control ecommerce with easily integrating API’s having a
+                scalable custom storefront
               </p>
               <div className="banner-button-container">
                 <button
