@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Accordion, Card } from "react-bootstrap";
-import dash1 from "./images/Dashboard-pana.svg";
 import dash2 from "./images/mykinsta-dashboard-v8@2x.jpg";
 import next from "./images/s.svg";
 import "./accordion.scss";

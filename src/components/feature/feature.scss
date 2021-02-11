@@ -26,6 +26,9 @@ p {
 }
 .card-feature-list {
   margin-top: 40px;
+  p {
+    display: flex;
+  }
 }
 .feature-card-column p span {
   margin-right: 1rem;
