@@ -7,6 +7,8 @@ import Feature from "./components/feature/feature";
 import Footer from "./components/footer/footer";
 import Work from "./components/work/work";
 import ManageAccordion from "./components/accordion/accordion.js";
+import Contact from "./components/contact/contact";
+import logo from "../src/Cart maker logo/logo.jpg";
 
 function App() {
   const scrollToRef = (key) => {
@@ -33,7 +35,18 @@ function App() {
           backgroundColor: "#fff",
         }}
       >
-        <Navbar.Brand href="#home">CARTMAKER</Navbar.Brand>
+        {/* <img style={{ height: "auto", width: "80px" }} src={logo}></img> */}
+        <img className="navbar-logo" alt="" src={logo} width="60" />
+        <Navbar.Brand href="#home">
+          {" "}
+          {/* <img
+            alt=""
+            src={logo}
+            width="90"
+            className="d-inline-block align-top"
+          /> */}
+          CARTMAKER
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
@@ -49,9 +62,9 @@ function App() {
             >
               FEATURES
             </Nav.Link>
-            <Nav.Link href="#pricing" onClick={() => executeScroll(itemRef[2])}>
+            {/* <Nav.Link href="#pricing" onClick={() => executeScroll(itemRef[2])}>
               TEAM
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link href="#pricing" onClick={() => executeScroll(itemRef[3])}>
               CONTACT
             </Nav.Link>
@@ -72,6 +85,9 @@ function App() {
 
       <div ref={myRef3}>
         <ManageAccordion />
+      </div>
+      <div ref={myRef3}>
+        <Contact />
       </div>
 
       <Footer />

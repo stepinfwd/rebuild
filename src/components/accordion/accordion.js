@@ -122,9 +122,9 @@ class ManageAccordion extends Component {
                       style={{ textAlign: "left", marginLeft: ".8rem" }}
                     >
                       {" "}
-                      MyKinsta was built from the get-go as a companion to our
+                      Cartmaker was built from the get-go as a companion to our
                       services. It allows you to manage your sites with the ease
-                      and precision you would expect from Kinsta.
+                      and precision you would expect from Cartmaker.
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>

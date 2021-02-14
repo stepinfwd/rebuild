@@ -1,4 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
+$white-color: #fff;
+$black-color: #434343;
+$teal-color: #008080;
 .App {
   text-align: center;
 }
@@ -8,15 +11,18 @@
   pointer-events: none;
 }
 
-//CUSTOM STYLES START
+// CUSTOM STYLES START
 
 .navbar-dark .navbar-brand {
   color: rgb(0, 0, 0) !important;
-  font-weight: 900;
+  font-weight: 800;
   font-family: inherit;
-  font-size: 16px;
-  margin-left: 2rem;
+  font-size: 19px;
+  margin-left: 0rem !important;
   letter-spacing: 2px;
+}
+.sticky-top {
+  margin-top: -1rem;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: rgb(0, 0, 0) !important;
@@ -29,7 +35,7 @@
   margin: 0.5rem 0rem;
 }
 .navbar-dark .navbar-nav .nav-link {
-  background-color: #fff !important;
+  // background-color: #fff !important;
 }
 .nav-container {
   margin-top: 1rem;

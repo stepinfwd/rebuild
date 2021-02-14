@@ -11,8 +11,8 @@ const Work = () => {
         <p className="work-sub-heading-description">
           Our clients love us because we never settle on these
         </p>
-        <div className="work-three-column-layout  row">
-          <div className=" col-md-4 work-each-column">
+        <div className="work-three-column-layout card-deck  row">
+          <div className=" col-md-4 work-each-column card">
             <img src={feature1} alt="" />
             <h4>Peace of mind</h4>
             <p>
@@ -20,7 +20,7 @@ const Work = () => {
               Back-end. Always running, monitored, and scaling on-demand.
             </p>
           </div>
-          <div className=" col-md-4 work-each-column">
+          <div className=" col-md-4 work-each-column card">
             <img src={feature2} alt="" />
             <h4>Support that cares</h4>
             <p>
@@ -28,7 +28,7 @@ const Work = () => {
               queries and complaints on the spot.
             </p>
           </div>
-          <div className=" col-md-4 work-each-column">
+          <div className=" col-md-4 work-each-column card">
             <img src={feature3} alt="" />
             <h4>User-friendly, yet powerful</h4>
             <p>

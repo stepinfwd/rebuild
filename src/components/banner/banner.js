@@ -1,7 +1,11 @@
 import React from "react";
 import "./banner.scss";
+import ReusableModal from "../components/Modal";
+import { Button, Modal } from "react-bootstrap";
 
 function Banner() {
+  const [modalShow, setModalShow] = React.useState(false);
+
   return (
     <div className="banner-global">
       <div className="container banner-large">
@@ -20,9 +24,14 @@ function Banner() {
               <button
                 type="button "
                 className="btn btn-default banner-custom-btn"
+                onClick={() => setModalShow(true)}
               >
                 TRY A FREE DEMO
               </button>
+              <ReusableModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+              />
             </div>
           </div>
           <div className="banner-image-container col-md-6"></div>

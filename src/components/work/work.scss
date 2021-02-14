@@ -21,6 +21,19 @@ $teal-color: #008080;
 }
 
 .work-each-column {
+  background: rgba(255, 255, 255, 0.25);
+  // box-shadow: 0 8px 32px 0 rgba(39, 207, 171, 0.12);
+  box-shadow: 0 10px 40px 0 rgba(47, 47, 47, 0.12);
+  backdrop-filter: blur(4px);
+  border: none !important;
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 5px !important;
+  border: 1px solid #ffffff2e;
+  // height: 28vw;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
   h4 {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -35,6 +48,6 @@ $teal-color: #008080;
   }
   img {
     width: 12rem;
-    margin-top: 1rem;
+    margin: 0 auto;
   }
 }
