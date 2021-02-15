@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./App.scss";
 import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
@@ -18,10 +18,16 @@ function App() {
   const myRef1 = useRef(null);
   const myRef2 = useRef(null);
   const myRef3 = useRef(null);
+  const [active, setactive] = useState(false);
+  const [defaultactive, setdefaultactive] = useState(true);
 
   const itemRef = [myRef, myRef1, myRef2, myRef3];
 
-  const executeScroll = (key) => scrollToRef(key);
+  const executeScroll = (key) => {
+    scrollToRef(key);
+    setactive(!active);
+    setdefaultactive(false);
+  };
 
   return (
     <div className="App">
@@ -51,21 +57,27 @@ function App() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link
-              href="#features"
+              href="#plans"
               onClick={() => executeScroll(itemRef[0])}
+              className={defaultactive ? "active" : ""}
             >
               PLANS
             </Nav.Link>
             <Nav.Link
               href="#features"
               onClick={() => executeScroll(itemRef[1])}
+              className={active ? active : ""}
             >
               FEATURES
             </Nav.Link>
             {/* <Nav.Link href="#pricing" onClick={() => executeScroll(itemRef[2])}>
               TEAM
             </Nav.Link> */}
-            <Nav.Link href="#pricing" onClick={() => executeScroll(itemRef[3])}>
+            <Nav.Link
+              href="#pricing"
+              onClick={() => executeScroll(itemRef[3])}
+              className={active ? active : ""}
+            >
               CONTACT
             </Nav.Link>
             {/* <Nav.Link href="#pricing">LOGIN</Nav.Link> */}
