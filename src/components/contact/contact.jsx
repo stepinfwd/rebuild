@@ -33,7 +33,7 @@ function Contact(props) {
   return (
     <div className="container contact-global">
       <h3>Any question in mind? Don’t Worry Contact Us.</h3>
-      <form >
+      <form>
         <div className="form-group contact-form col-lg-6 colsm-12 cpl-xs-12">
           <input
             type="text"
@@ -42,7 +42,6 @@ function Contact(props) {
             onChange={contactHandler}
             name="name"
             required
-
           />
           <input
             type="email"
@@ -53,7 +52,6 @@ function Contact(props) {
             onChange={contactHandler}
             name="email"
             required
-
           />
           <input
             type="text"
@@ -71,8 +69,7 @@ function Contact(props) {
             required=""
             onChange={contactHandler}
             name="message"
-            required
-
+            required={true}
           ></textarea>
 
           <button onClick={contactSave} type="submit">

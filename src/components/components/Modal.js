@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import "./Modal.scss";
 import { Button, Modal, Form, Col } from "react-bootstrap";
 import closeImg from "../../Cart maker logo/images/close.png";
+import db from "../../firebase.js";
 
 function ReusableModal(props) {
   const [contact, setContact] = useState({
@@ -16,8 +17,18 @@ function ReusableModal(props) {
   };
   const contactSave = (e) => {
     e.preventDefault();
-
-    // api call
+    db.collection("details")
+      .add({
+        name: contact.name,
+        email: contact.email,
+        phno: contact.phno,
+      })
+      .then(() => {
+        alert("message submitted");
+      })
+      .catch((error) => {
+        alert(error.message);
+      });
   };
   return (
     <Modal
