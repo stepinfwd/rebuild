@@ -27,8 +27,15 @@ function ReusableModal(props) {
       centered
     >
       <Modal.Header>
-        <img onClick={props.onHide} className="align-button" src={closeImg} alt="" />
-        <Modal.Title id="contained-modal-title-vcenter"></Modal.Title>
+        <Modal.Title id="contained-modal-title-vcenter">
+          {" "}
+          <img
+            onClick={props.onHide}
+            className="align-button"
+            src={closeImg}
+            alt=""
+          />
+        </Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <Form.Row>
