@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/rebuild/static/css/main.e1837638.chunk.css",
-    "main.js": "/rebuild/static/js/main.e607ba5e.chunk.js",
-    "main.js.map": "/rebuild/static/js/main.e607ba5e.chunk.js.map",
+    "main.css": "/rebuild/static/css/main.6c322f66.chunk.css",
+    "main.js": "/rebuild/static/js/main.515d8b2c.chunk.js",
+    "main.js.map": "/rebuild/static/js/main.515d8b2c.chunk.js.map",
     "runtime-main.js": "/rebuild/static/js/runtime-main.117eea1c.js",
     "runtime-main.js.map": "/rebuild/static/js/runtime-main.117eea1c.js.map",
     "static/css/2.af3c1da9.chunk.css": "/rebuild/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4844a582.chunk.js": "/rebuild/static/js/2.4844a582.chunk.js",
-    "static/js/2.4844a582.chunk.js.map": "/rebuild/static/js/2.4844a582.chunk.js.map",
+    "static/js/2.ee8f1b50.chunk.js": "/rebuild/static/js/2.ee8f1b50.chunk.js",
+    "static/js/2.ee8f1b50.chunk.js.map": "/rebuild/static/js/2.ee8f1b50.chunk.js.map",
     "index.html": "/rebuild/index.html",
-    "precache-manifest.37fa51fdc663a836da05bb7cdf96ca62.js": "/rebuild/precache-manifest.37fa51fdc663a836da05bb7cdf96ca62.js",
+    "precache-manifest.6b9296e2e479a733e9f9ba5642eb2845.js": "/rebuild/precache-manifest.6b9296e2e479a733e9f9ba5642eb2845.js",
     "service-worker.js": "/rebuild/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/rebuild/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.e1837638.chunk.css.map": "/rebuild/static/css/main.e1837638.chunk.css.map",
-    "static/js/2.4844a582.chunk.js.LICENSE.txt": "/rebuild/static/js/2.4844a582.chunk.js.LICENSE.txt",
+    "static/css/main.6c322f66.chunk.css.map": "/rebuild/static/css/main.6c322f66.chunk.css.map",
+    "static/js/2.ee8f1b50.chunk.js.LICENSE.txt": "/rebuild/static/js/2.ee8f1b50.chunk.js.LICENSE.txt",
     "static/media/Active Support-amico.svg": "/rebuild/static/media/Active Support-amico.88111604.svg",
     "static/media/banner.scss": "/rebuild/static/media/Catalogue-pana.bfe3a0d9.svg",
     "static/media/Meditation-bro.svg": "/rebuild/static/media/Meditation-bro.2b8a93be.svg",
     "static/media/Powerful-bro.svg": "/rebuild/static/media/Powerful-bro.768c9477.svg",
+    "static/media/logo.jpg": "/rebuild/static/media/logo.e81f1cb2.jpg",
     "static/media/mykinsta-dashboard-v8@2x.jpg": "/rebuild/static/media/mykinsta-dashboard-v8@2x.e20ad8ae.jpg",
     "static/media/s.svg": "/rebuild/static/media/s.30f75cd3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.117eea1c.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4844a582.chunk.js",
-    "static/css/main.e1837638.chunk.css",
-    "static/js/main.e607ba5e.chunk.js"
+    "static/js/2.ee8f1b50.chunk.js",
+    "static/css/main.6c322f66.chunk.css",
+    "static/js/main.515d8b2c.chunk.js"
   ]
 }
