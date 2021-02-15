@@ -1,7 +1,6 @@
 import React from "react";
 import "./banner.scss";
 import ReusableModal from "../components/Modal";
-import { Button, Modal } from "react-bootstrap";
 
 function Banner() {
   const [modalShow, setModalShow] = React.useState(false);
