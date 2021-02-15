@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import "./Modal.scss";
 import { Button, Modal, Form, Col } from "react-bootstrap";
 import closeImg from "../../Cart maker logo/images/close.png";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import db from "../../firebase.js";
 
 function ReusableModal(props) {
@@ -11,9 +13,10 @@ function ReusableModal(props) {
     email: "",
     phno: "",
   });
+  const notify = () => toast("Thank you for getting in touch!");
+
   const contactHandler = (e) => {
     setContact({ ...contact, [e.target.name]: e.target.value });
-    console.log("contact isFinite", contact);
   };
   const contactSave = (e) => {
     e.preventDefault();
@@ -24,7 +27,8 @@ function ReusableModal(props) {
         phno: contact.phno,
       })
       .then(() => {
-        alert("message submitted");
+        notify();
+        props.onHide();
       })
       .catch((error) => {
         alert(error.message);
@@ -57,6 +61,7 @@ function ReusableModal(props) {
               name="name"
               type="text"
               placeholder="Enter Your Name"
+              className="details-input"
             />
             <Form.Label className="form-label">Email</Form.Label>
             <Form.Control
@@ -64,13 +69,17 @@ function ReusableModal(props) {
               name="email"
               type="email"
               placeholder="Enter Your email"
+              className="details-input"
+              feedback="wrrw"
             />
-            <Form.Label className="form-label">Phno</Form.Label>
+            <Form.Label className="form-label">Phone number</Form.Label>
             <Form.Control
               onChange={contactHandler}
               name="phno"
               type="number"
               placeholder="Enter Your Phone Number"
+              className="details-input"
+              feedback
             />
           </Form.Group>
         </Form.Row>
@@ -91,6 +100,7 @@ function ReusableModal(props) {
         >
           Save
         </Button>
+        <ToastContainer className="toast-container" />
       </Modal.Footer>
     </Modal>
   );

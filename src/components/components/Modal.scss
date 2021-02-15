@@ -1,5 +1,6 @@
 .form-label {
   margin-top: 1rem;
+  font-weight: 600;
 }
 .align-button {
   position: absolute;
@@ -9,4 +10,7 @@
 }
 #contained-modal-title-vcenter {
   margin-top: 2rem;
+}
+.details-input {
+  width: 83% !important;
 }

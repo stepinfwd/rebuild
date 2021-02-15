@@ -6,7 +6,7 @@
 }
 .form-control:focus {
   color: #495057;
-  background-color: #fff ;
+  background-color: #fff;
   border-color: #008080 !important;
   outline: 0;
   box-shadow: 0 10px 40px 0 rgba(47, 47, 47, 0.12) !important;
@@ -15,11 +15,18 @@
   padding: 10px;
   margin-bottom: 30px;
 }
+.banner-custom-btn:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #008080 !important;
+  outline: 0 !important;
+  box-shadow: 0 10px 40px 0 rgba(47, 47, 47, 0.12) !important;
+}
 .contact-form button {
   //   background: #008088 none repeat scroll 0 0 !important;
   border: 0 none;
   //   border-radius: 50px;
-  color: #212529;
+  color: #008080;
   font-size: 14px;
   letter-spacing: 2px;
   padding: 13px 20px;

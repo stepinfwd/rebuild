@@ -31,13 +31,22 @@ $teal-color: #008080;
 }
 .banner-custom-btn {
   margin-top: 20px;
+  color: #008088 !important;
+  font-weight: 800 !important;
+
   margin-right: 20px;
-  border: 1px solid $black-color !important;
+  border: 1px solid $teal-color !important;
   // position: absolute;
   // left: 1rem;
   // bottom: -3.5rem;
 }
-
+.banner-custom-btn:focus {
+  color: $black-color !important;
+  background-color: #fff;
+  border-color: #008080 !important;
+  outline: 0;
+  box-shadow: 0 10px 40px 0 rgba(47, 47, 47, 0.12) !important;
+}
 // MEDIA_QUERY
 
 @media screen and (min-width: 769px) {

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./contact.scss";
 import db from "../../firebase.js";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function Contact(props) {
   const [contact, setContact] = useState({
     name: "",
@@ -8,12 +10,14 @@ function Contact(props) {
     sub: "",
     message: "",
   });
+  const notify = () => toast("Thank you for getting in touch!");
   const contactHandler = (e) => {
     setContact({ ...contact, [e.target.name]: e.target.value });
     console.log("contact isFinite", contact.name);
   };
   const contactSave = (e) => {
     e.preventDefault();
+
     db.collection("contact")
       .add({
         name: contact.name,
@@ -22,7 +26,8 @@ function Contact(props) {
         sub: contact.sub,
       })
       .then(() => {
-        alert("messafe submittes");
+        // alert("messafe submittes");
+        notify();
       })
       .catch((error) => {
         alert(error.message);
@@ -72,9 +77,14 @@ function Contact(props) {
             required={true}
           ></textarea>
 
-          <button onClick={contactSave} type="submit">
+          <button
+            onClick={contactSave}
+            className="contact-custom-btn"
+            type="submit"
+          >
             send message
           </button>
+          <ToastContainer className="toast-container" />
         </div>
       </form>
     </div>

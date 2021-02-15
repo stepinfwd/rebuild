@@ -19,8 +19,14 @@ $teal-color: #008080;
   margin-bottom: 20px;
   text-align: center;
 }
+.work-each-column:hover {
+  cursor: pointer;
+  transform: scale(1, 1.03);
+  border-top: 1px solid #008080 !important;
+}
 
 .work-each-column {
+  transition: all 0.2s ease-in-out;
   background: rgba(255, 255, 255, 0.25);
   // box-shadow: 0 8px 32px 0 rgba(39, 207, 171, 0.12);
   box-shadow: 0 10px 40px 0 rgba(47, 47, 47, 0.12);
