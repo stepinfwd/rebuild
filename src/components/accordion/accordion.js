@@ -35,6 +35,7 @@ class ManageAccordion extends Component {
                     backgroundColor: "#434343",
                     color: "#fff",
                     border: "none",
+                    cursor: "pointer",
                   }}
                 >
                   <Accordion.Toggle
@@ -68,6 +69,7 @@ class ManageAccordion extends Component {
                     backgroundColor: "#434343",
                     color: "#fff",
                     border: "none",
+                    cursor: "pointer",
                   }}
                 >
                   <Accordion.Toggle
@@ -101,6 +103,7 @@ class ManageAccordion extends Component {
                     backgroundColor: "#434343",
                     color: "#fff",
                     border: "none",
+                    cursor: "pointer",
                   }}
                 >
                   <Accordion.Toggle
@@ -134,6 +137,7 @@ class ManageAccordion extends Component {
                     backgroundColor: "#434343",
                     color: "#fff",
                     border: "none",
+                    cursor: "pointer",
                   }}
                 >
                   <Accordion.Toggle

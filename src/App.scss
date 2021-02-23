@@ -4,6 +4,7 @@ $black-color: #434343;
 $teal-color: #008080;
 .App {
   text-align: center;
+  scroll-behavior: smooth;
 }
 .active {
   border-bottom: 3px solid #008080;

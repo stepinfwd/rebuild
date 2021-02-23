@@ -10,7 +10,7 @@ export default function Footer() {
       <footer id="sticky-footer" class="py-4 ">
         <div className="hr-line"></div>
         <div class="container text-center">
-          <small>Copyright &copy; Cartmaker</small>
+          <small>Copyright &copy; Cartmaker </small>
         </div>
       </footer>
     </div>
