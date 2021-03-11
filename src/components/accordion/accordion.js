@@ -48,7 +48,7 @@ class ManageAccordion extends Component {
                     }}
                   >
                     <div className="acc-flex">
-                      <img className="svg-icon" src={next} alt=""></img>
+//                       <img className="svg-icon" src={next} alt=""></img>
                       Dashboard overview of all your Products
                     </div>
                   </Accordion.Toggle>
