@@ -17,7 +17,6 @@ class ManageAccordion extends Component {
               </h2>
               <div className="accordion-image-section-container ">
                 <div className="accordion-image-section ">
-                  <img src={dash2} alt=""></img>
                 </div>
               </div>
             </div>
@@ -48,7 +47,7 @@ class ManageAccordion extends Component {
                     }}
                   >
                     <div className="acc-flex">
-//                       <img className="svg-icon" src={next} alt=""></img>
+                      <img className="svg-icon" src={next} alt=""></img>
                       Dashboard overview of all your Products
                     </div>
                   </Accordion.Toggle>
